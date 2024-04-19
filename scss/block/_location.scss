@@ -1,0 +1,94 @@
+.location__img {
+    display: none;
+}
+.location__mobile_img {
+    max-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 87px;
+}
+.location__tel {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 17px;
+    color: #333;
+}
+.location__connect::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("../img/tel.svg");
+    background-position: left;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+.location__connect1::before{
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("../../img/joylashuv.svg");
+    background-position: left;
+    width: 29px;
+    height: 29px;
+    display: block;
+}
+.location__connect1{
+    display: flex;
+    gap: 19px;
+    padding-top: 42px;
+}
+.location__connect{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.location__hr{
+    width: 306px;
+height: 0px;
+margin-top: 37px;
+}
+.location__content{
+    max-width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+.location__title_follow{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 189%;
+color: #000;
+}
+.location__list{
+    display: flex;
+}
+.location__follow{
+    max-width: 184px;
+    text-align: start;
+    padding-top: 41px;
+}
+@media screen and (min-width:992px) {
+   .location__img{
+    display: inline-block;
+   }
+   .location__mobile_img{
+    display: none;
+   }
+   .location__block{
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+   }
+.location__content{
+    display: flex;
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    gap: 200px;
+}
+.location__hr{
+    display: none;
+}
+}

@@ -1,0 +1,60 @@
+.header {
+    background: linear-gradient(111deg, #e47500 0%, #df7c14 100%);
+
+}
+.header__btn {
+    height: 26px;
+    min-width: 21px;
+    background-repeat: no-repeat;
+    background-image: url("../img/header_bgi.svg");
+    border: none;
+    background-color: transparent;
+}
+.header__nav {
+    display: none;
+}
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 23px 20px 19px 23px;
+}
+@media screen and (min-width: 992px) {
+    .header__button {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 13px;
+        color: #dc7000;
+        padding: 11px 27px 11px 27px;
+        border-radius: 6px;
+        background-color: #fff;
+    }
+    .header__button:hover{
+        background-color: gold;
+        color: green;
+    }
+    .header__btn {
+        display: none;
+    }
+    .header__list {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+    }
+    .header__item {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: #fff;
+
+    }
+    .header__item:hover{
+        background-repeat: no-repeat;
+        background-image: url('../img/konus.svg');
+        background-position: left;
+    }
+    .header__nav {
+        display: flex;
+        gap: 68px;
+    }
+}
